@@ -19,11 +19,11 @@ const initialState = [
   }
 ];
 
-const reducer = (state = initialState, action = {}) => {
+const pizzas = (state = initialState, action = {}) => {
   switch (action.type) {
     default:
       return state;
   }
 };
 
-export default reducer;
+export default pizzas;
